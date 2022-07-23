@@ -1,0 +1,110 @@
+
+/* TABLETS */
+
+@media (max-width:768px) and (min-width:480px) {}
+
+/* MOBILE DEVICES */
+@media (max-width: 480px) {
+ 
+    /* Navbar */
+    .navbar{
+        height: 25px;
+        padding: 4px;
+    } 
+    .logo img {
+        width: 40px;
+        margin: 0; 
+        font-size: 16px;
+        margin-right: 10px;
+    }
+    .search{
+        display: flex;
+        border: 0.5px solid #efeded;
+        width: 185px;  
+        height: 18px;
+    }
+    .search input{
+        font-size: 6px;
+        padding: 0 4px; 
+    }
+    .search button{
+        border: 0.2px solid #efeded;
+        width: 13%;
+     }
+    
+    .navigation-icons{
+        display: flex;
+    } 
+    .material-icons{
+        margin-right: 10px;
+        font-size: 10px;
+    }
+    /* MAINBODY */
+    .mainbody{  
+        height: calc(100vh - 25px); 
+    }
+    /* CATEGORY SECTION*/
+    .category .material-icons {
+        margin: 0;
+        font-size: 10px;
+    }
+    .categories {
+        width: 35px;
+        overflow: hidden;
+    }
+    .responsive ~ .category-section{
+        display: none;
+    }
+    .after ~ .category {
+        display: none;
+    }
+    .category {
+        display: flex;
+        flex-direction: column; 
+        height: 35px;
+        font-size: 5px;
+        font-weight: 400;
+        padding: 0; 
+    }
+    .active{
+        background: none; 
+    }
+    .category-section{
+        border-bottom: 0px;
+        margin: 0;
+    }
+    .category-section .category:last-child{
+        margin: 0;
+    }
+    /* FOOTER */
+    .footer-categories{
+        display: none;
+    }
+    /* VIDEOS */
+    .videos{  
+        width: calc(100vw - 35px); 
+    }
+    .video-grid{
+        padding: 10px 0 15px 10px;
+    }
+    .video{
+        width: calc(33% - 9px);
+        margin: 0 9px 20px 0;   
+   }
+   .video .details{
+       margin-top: 0;
+   }
+   .video .profile{
+       margin-right: 5px;
+   }
+   .video .video-details p{
+        font-size: 5px;
+        line-height: 8px;
+   }
+   .video .posted-by{
+    font-size: 5px;
+   }
+   .video .profile img {
+    width: 14px;
+   }  
+}  

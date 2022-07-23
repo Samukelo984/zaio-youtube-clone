@@ -12,17 +12,16 @@ body {
 
 .material-icons {
     color: #606060; 
-    margin-right: 10px; 
+    margin-right: 0.6rem;   
 }
-
-
+ 
 /* Navbar CODE BEGIN */
 .navbar {
     display: flex; 
     justify-content: space-between; 
     align-items: center; 
-    height: 56px;
-    padding: 0 16px; 
+    height: 3.2rem; 
+    padding: 0 1rem;  
     position: sticky;
     top: 0;
     background-color: white; 
@@ -31,37 +30,38 @@ body {
 .navbar > .logo { 
     display: flex; 
     align-items: center; 
-    margin-left: 8px; 
+    margin-left: 0.4rem;  
 }
 
 .navbar > .logo > img {
-    width: 100px;  
-    margin-left: 10px; 
+    width: 7rem;  
+    margin-left: 0.7rem; 
 } 
 
 .navbar > .searchbar {
     display: flex; 
     align-items: center;
-    height: 32px; 
+    height: 2.2rem; 
 }
 
 .navbar > .searchbar > .search {
     display: flex; 
-    border: 1px solid #cccccc; 
-    width: 600px; 
+    border: 0.10rem solid #cccccc; 
+    width: 37rem; 
     height: 100%;
-    margin-right: 10px; 
+    margin-right: 0.7rem; 
 } 
 
 .navbar > .searchbar > .search >input {
     border: none; 
+    outline: none;
     width: 90%;
-    padding-left: 3px;  
+    padding-left: 0.30rem;  
 } 
 
 .navbar > .searchbar > .search >button {
     border: none;
-    border-left: 1px solid #cccccc; 
+    border-left: 0.10rem solid #cccccc; 
     width: 10%; 
     display: flex;
     align-items: center;
@@ -70,10 +70,10 @@ body {
 
 .navbar > .searchbar > .search > button > i {
     margin: 0; 
-    padding: 2px;  
-}
+    padding: 0.2rem;  
+} 
  
-/* NAVBAR CODE END */
+/* NAVBAR CODE END */ 
 
 /* MAINBODY CODE BEGIN */
 
@@ -85,24 +85,24 @@ body {
 
 /* MAIN BODY . CATEGORIES */
 .mainbody > .categories {
-    width: 240px;  
+    width: 15rem;    
     height: 100%;
     background-color: white;
     overflow-y: scroll; 
 } 
 
 .mainbody > .categories > .category-section {
-    border-bottom: 1px solid #cccccc; 
-    margin-top: 10px; 
+    border-bottom: 0.10rem solid #cccccc; 
+    margin-top: 0.8rem;  
 }
 
 .mainbody > .categories > .category-section:last-child {
-    margin-bottom: 10px; 
+    margin-bottom: 0.8rem;  
 }  
 
 .mainbody > .categories > .category-section > .category-heading {
-    margin: 10px 0px 10px 25px;
-    font-size: 14px;
+    margin: 0.7rem 0 0.7rem 1rem; 
+    font-size: 0.9rem;
     font-weight: 500; 
     color: #606060;
 }  
@@ -111,9 +111,9 @@ body {
     width: 100%; 
     display: flex; 
     align-items: center;
-    height: 40px;
-    padding:0 24px;  
-    font-size: 14px; 
+    height: 2.5rem;
+    padding:0 1.3rem;  
+    font-size: 0.9rem; 
     font-weight: 400; 
     cursor: pointer;
 }
@@ -126,9 +126,9 @@ body {
     width: 100%; 
     display: flex; 
     align-items: center;
-    height: 40px;
-    padding:0 24px;  
-    font-size: 14px; 
+    height: 2.5rem; 
+    padding:0 1.3rem;   
+    font-size: 0.9rem; 
     cursor: pointer;
     background-color: #d0d0d0; 
     font-weight: 500; 
@@ -145,7 +145,7 @@ body {
 /* MAINBODY . FOOTER */
 
 .mainbody > .categories > .categories-footer {
-    margin: 25px;
+    margin: 1.3rem; 
 } 
 
 .mainbody > .categories > .categories-footer > .footer-section {
@@ -153,19 +153,19 @@ body {
 }
 
 .mainbody > .categories > .categories-footer > .footer-section > span {
-    font-size: 13px;
+    font-size: 0.9rem; 
     font-weight: 500;
-    margin-right: 5px;
+    margin-right: 0.3rem;
     cursor: hover; 
     color: #606060; 
 } 
 
 .mainbody > .categories > .categories-footer > .copyright {
-    padding: 25px;
+    padding: 1.3rem; 
     color: #606060; 
-    font-size: 13px;
+    font-size: 0.9rem; 
     font-weight: 500;
-    margin-right: 3px;
+    margin-right: 0.2rem;
 }   
 
  
@@ -176,20 +176,20 @@ body {
     width: calc(100vw - 240px);
     height: 100%;
     background-color: #f9f9f9; 
-    border-top: 1px solid #cccccc; 
+    border-top: 0.10rem solid #cccccc; 
     overflow-y: scroll;
 } 
  
 .mainbody > .videos > .video-grid {
     display: flex; 
     flex-wrap: wrap;
-    padding: 15px;  
+    padding: 1rem;   
 }   
 
 .mainbody > .videos > .video-grid > .video {
     width: calc(25% - 12px);
-    margin-right: 12px; 
-    margin-bottom: 35px;
+    margin-right: 0.7rem;  
+    margin-bottom: 2rem;
     cursor: pointer; 
 }  
  
@@ -199,29 +199,29 @@ body {
 
 .mainbody > .videos > .video-grid > .video > .details {
     display: flex;  
-    margin-top: 5px; 
+    margin-top: 0.2rem; 
     width: 90%; 
 }  
 
 .mainbody > .videos > .video-grid > .video > .details > .profile {
-    margin-right: 12px; 
+    margin-right: 0.7rem;  
 }
 
 .mainbody > .videos > .video-grid > .video > .details > .profile > img {
     border-radius: 50%; 
-    width: 36px;
-    height: 36px; 
+    width: 2rem;
+    height: 2rem;  
 }
 
 .mainbody > .videos > .video-grid > .video > .details > .video-details > p {
-    font-size: 14px;
+    font-size: 0.9rem;
     font-weight: 500;
-    line-height: 20px; 
+    line-height: 1.1rem; 
 } 
 
 
 .mainbody > .videos > .video-grid > .video > .details > .video-details > .posted-by {
-    font-size: 14px;
+    font-size: 0.9rem; 
     font-weight: 500;
     color: #606060;
 } 
